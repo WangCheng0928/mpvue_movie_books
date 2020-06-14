@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/books/main",
+    "pages/personal/main",
+    "pages/movie/main",
+    "pages/bookDetail/main"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#EA5159",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "电影图书",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light"
+  },
+  "tabBar": {
+    "selectedColor": "#EA5149",
+    "list": [
+      {
+        "pagePath": "pages/movie/main",
+        "text": "电影列表",
+        "iconPath": "static/imgs/todo.png",
+        "selectedIconPath": "static/imgs/todo-active.png"
+      },
+      {
+        "pagePath": "pages/books/main",
+        "text": "图书列表",
+        "iconPath": "static/imgs/book.png",
+        "selectedIconPath": "static/imgs/book-active.png"
+      },
+      {
+        "pagePath": "pages/personal/main",
+        "text": "个人中心",
+        "iconPath": "static/imgs/me.png",
+        "selectedIconPath": "static/imgs/me-active.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "my_bookStore_server",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon server.js"
+  }
+}
